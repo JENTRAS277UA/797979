@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+header nav {
+    width: 1140px;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header  nav  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: #150C01;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+
+color: #DC780B;
+
+}
+
+
+
+button {
+    width: 155px;
+    height: 46px;
+    border-radius: 5px;
+    background-color: 
+    #DC780B;
+    color: #ffffff;
+}
+
+.q {
+    width: 801px;
+    height: 670px;
+    display: inline-block;
+    
+}
+
+.qwerty  {
+width: 158px;
+height: 60px;
+border-radius: 5px;
+}
+
+.qwerty:hover {
+    background-color: #ffffff;
+    color: #DC780B  ;
+}
+
+.section__item {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section .section__item {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.section .section__item img {
+    width: 100%;
+    
+}
+
+.card {
+    display: inline-block;
+    padding: 30px;
+}
+
+.lazizjon  .group img {
+    border-radius: 30px;
+    display: inline-block;
+    width: 555px;
+    height: 500px;
+}
+
+.lazizjon  .card__wrapper {
+    display:flex;
+    margin-top: 50px;
+    gap: 50px;
+    text-align: left;
+}
+.p {
+    text-align: right;
+}
+
+
+.wasd {
+width: 360px;
+}
+
+.mask2 {
+    display: flex;
+   gap: 20px;
+}
+
+.App{
+    background-color: black;
+    color: #ffffff;
+}
+
+.Google {
+    background-color: #ffffff;
+    color: black;
+}
+
+.App:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.Google:hover {
+    background-color: black;
+    color: white;
+}
+
